@@ -1,0 +1,19 @@
+{
+    "name": "damaproject",
+    "version": "1.0.0",
+    "description": "fun project",
+    "main": "index.js",
+    "scripts": {
+        "test": "js/app/tests/test.js"
+    },
+    "keywords": [],
+    "author": "Dama",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.10"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.3.1",
+        "jasmine-core": "^3.2.1"
+    }
+}

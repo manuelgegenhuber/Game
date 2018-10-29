@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#gameArea {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+    top: 50px;
+}
+
+#box {
+    z-index: 999;
+}
+
+.defaulContainer {
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    margin: 0;
+}
+
+.redContainer {
+    background-color: red;
+}
+
+.blueContainer {
+    background-color: blue;
+}
+
+.greenContainer {
+    background-color: green;
+}
